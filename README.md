@@ -1,5 +1,5 @@
 # Pisos
-Extension for Chrome. Replaces every single word with 'pisos'.
+Extension for Chrome. Replaces every single word on every page with 'pisos'.
 * Pisos?
 * Pisos!
 

@@ -1,0 +1,21 @@
+{
+  "name": "Pisos",
+  "manifest_version": 2,
+  "version": "0.1",
+  "permissions": [
+    "https://*/",
+    "http://*/",
+	"tabs"
+    ],
+  "description": "pisos",
+  "icons": {
+      "128": "pisos.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["status.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

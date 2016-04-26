@@ -17,4 +17,11 @@ function pisos() {
             }
         }
     }
+    
+    //Images
+    var images = document.body.querySelectorAll('img');
+    var imgURL = chrome.extension.getURL("pisos_cat.jpg");
+    for (var i = 0; i < images.length; i++) {
+        images.item(i).src = imgURL;
+    }
 }

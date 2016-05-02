@@ -1,7 +1,7 @@
 {
   "name": "Pisos",
   "manifest_version": 2,
-  "version": "0.3",
+  "version": "0.4",
   "permissions": [
     "https://*/",
     "http://*/",
